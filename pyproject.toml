@@ -1,0 +1,16 @@
+[project]
+name = "azsfsbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.22.0",
+    "aiogram-dialog>=2.4.0",
+    "aiosqlite>=0.21.0",
+    "alembic>=1.17.0",
+    "apscheduler>=3.11.0",
+    "pydantic-settings>=2.11.0",
+    "pymodbus>=3.11.3",
+    "sqlalchemy>=2.0.44",
+]
